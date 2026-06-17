@@ -1,0 +1,25 @@
+spring-boot-expert
+Copyright (c) 2026 Julien Mutton
+
+This product synthesizes and adapts material from the following projects.
+Their copyright notices are preserved here as required by their licenses.
+
+-------------------------------------------------------------------------------
+springboot-skills-marketplace
+https://github.com/a-pavithraa/springboot-skills-marketplace
+Copyright (c) 2026 Pavithra
+Licensed under the MIT License.
+
+Much of the architecture decision matrix, Spring Boot 4 / Java 25 feature
+guidance, and the JPA, security, performance, and migration reference material
+is adapted from this project.
+-------------------------------------------------------------------------------
+spring-boot-application-architecture-patterns
+https://github.com/sivaprasadreddy/spring-boot-application-architecture-patterns
+Copyright (c) Siva Prasad Reddy
+Licensed under the Apache License, Version 2.0.
+
+The progressive architecture patterns (Layered, Package-by-Module, Modular
+Monolith, "Tomato", DDD + Hexagonal) originate here, by way of the marketplace
+project above.
+-------------------------------------------------------------------------------
