@@ -7,7 +7,7 @@ The skill is opinionated about the failures that pass local tests and detonate u
 ## Structure
 
 ```
-skill.md                 # core: principles, architecture decision matrix, canonical example
+SKILL.md                 # core: principles, architecture decision matrix, canonical example
 references/
   architecture-decisions.md      # Layered → DDD+Hex, package layouts, naming, upgrade paths
   domain-modeling.md             # value objects, rich entities/aggregates, sealed events
@@ -18,7 +18,7 @@ references/
   migration-to-boot-4.md         # Jackson 3, test annotations, Modulith 2, native resilience
 ```
 
-The core (`skill.md`) loads first; each reference is self-contained and read only when the task touches that area.
+The core (`SKILL.md`) loads first; each reference is self-contained and read only when the task touches that area.
 
 ## Core principles
 
@@ -36,12 +36,22 @@ Install as a personal Claude skill:
 
 ```bash
 mkdir -p ~/.claude/skills/spring-boot-expert
-cp -r skill.md references ~/.claude/skills/spring-boot-expert/
+cp -r SKILL.md references ~/.claude/skills/spring-boot-expert/
 ```
 
-Some tooling expects the entry file to be named `SKILL.md` — rename `skill.md` if your setup requires it.
+The skill follows the standard layout: a `SKILL.md` entry file with YAML frontmatter
+(`name` + `description`) and a `references/` directory of supporting material.
 
-## Credits
+## Credits & attribution
 
-Synthesized from a hand-written Spring Boot expert prompt and patterns drawn from
-[a-pavithraa/springboot-skills-marketplace](https://github.com/a-pavithraa/springboot-skills-marketplace).
+Synthesized from a hand-written Spring Boot expert prompt and patterns adapted from:
+
+- **[springboot-skills-marketplace](https://github.com/a-pavithraa/springboot-skills-marketplace)**
+  by **Pavithra** ([@a-pavithraa](https://github.com/a-pavithraa)) — MIT License. The architecture
+  decision matrix, Spring Boot 4 / Java 25 feature guidance, JPA, security, and migration material
+  draw heavily on this project.
+- **[spring-boot-application-architecture-patterns](https://github.com/sivaprasadreddy/spring-boot-application-architecture-patterns)**
+  by **Siva Prasad Reddy** ([@sivaprasadreddy](https://github.com/sivaprasadreddy)) — Apache License 2.0 —
+  the architecture patterns the marketplace itself is built on.
+
+Released under the [MIT License](LICENSE); upstream copyright notices are preserved there.
