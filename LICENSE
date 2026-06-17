@@ -1,13 +1,7 @@
 MIT License
 
 Copyright (c) 2026 Julien Mutton
-
-This work synthesizes and adapts material from the springboot-skills-marketplace
-project (https://github.com/a-pavithraa/springboot-skills-marketplace),
-Copyright (c) 2026 Pavithra, also released under the MIT License. That project in
-turn builds on spring-boot-application-architecture-patterns by Siva Prasad Reddy
-(https://github.com/sivaprasadreddy/spring-boot-application-architecture-patterns),
-released under the Apache License 2.0.
+Portions Copyright (c) 2026 Pavithra (via springboot-skills-marketplace, MIT)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
